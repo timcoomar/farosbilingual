@@ -2,6 +2,8 @@ title: News
 template: default
 layout: layout
 mount: 2a54f40b-fcc5-4f9e-96e0-76378023fcc3
+taxonomies:
+  - tags
 revisions: false
 route: '{mount}/{slug}'
 date: true
