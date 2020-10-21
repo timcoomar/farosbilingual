@@ -1,8 +1,8 @@
 ---
-title: Home
+title: Welcome
 template: home
 author: 5eb7e72e-e580-4a8d-81c6-51acd7db6565
 updated_by: 5eb7e72e-e580-4a8d-81c6-51acd7db6565
-updated_at: 1603290183
+updated_at: 1603291452
 id: home
 ---
