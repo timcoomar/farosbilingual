@@ -8,8 +8,8 @@ fields:
       type: text
       icon: text
       listable: hidden
-      if:
-        title: 'equals Welcome'
+      if_any:
+        title: 'equals Αρχικη'
   -
     handle: content1
     field:
