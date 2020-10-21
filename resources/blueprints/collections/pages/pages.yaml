@@ -1,7 +1,7 @@
 title: Pages
 sections:
-  main:
-    display: Main
+  general:
+    display: General
     fields:
       -
         handle: title
@@ -16,8 +16,6 @@ sections:
           type: markdown
           display: Content
           localizable: true
-      -
-        import: home
   sidebar:
     display: Sidebar
     fields:
@@ -52,3 +50,8 @@ sections:
           default: current
           localizable: true
           max_items: 1
+  page_specific:
+    display: 'Page Specific'
+    fields:
+      -
+        import: home
