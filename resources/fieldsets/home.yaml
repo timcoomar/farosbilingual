@@ -9,7 +9,7 @@ fields:
       icon: text
       listable: hidden
       if_any:
-        title: 'equals Welcome'
+        slug: 'equals home'
   -
     handle: content1
     field:
@@ -22,6 +22,8 @@ fields:
       type: markdown
       icon: markdown
       listable: hidden
+      if:
+        slug: 'equals home'
   -
     handle: title2
     field:
@@ -30,6 +32,8 @@ fields:
       type: text
       icon: text
       listable: hidden
+      if:
+        slug: 'equals home'
   -
     handle: content2
     field:
@@ -42,6 +46,8 @@ fields:
       type: markdown
       icon: markdown
       listable: hidden
+      if:
+        slug: 'equals home'
   -
     handle: image2
     field:
@@ -54,3 +60,5 @@ fields:
       type: assets
       icon: assets
       listable: hidden
+      if:
+        slug: 'equals home'
