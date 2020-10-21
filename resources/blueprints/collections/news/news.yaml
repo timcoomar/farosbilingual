@@ -20,6 +20,18 @@ sections:
           icon: text
           listable: hidden
       -
+        handle: image
+        field:
+          mode: grid
+          container: assets
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: Image
+          type: assets
+          icon: assets
+          listable: hidden
+      -
         handle: teaser
         field:
           input_type: text
@@ -63,18 +75,6 @@ sections:
           display: 'File Upload'
           type: grid
           icon: grid
-          listable: hidden
-      -
-        handle: image
-        field:
-          mode: grid
-          container: assets
-          restrict: false
-          allow_uploads: true
-          max_files: 1
-          display: Image
-          type: assets
-          icon: assets
           listable: hidden
   sidebar:
     display: Sidebar
