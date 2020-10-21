@@ -1,0 +1,92 @@
+title: News
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: 'short title'
+        field:
+          input_type: text
+          character_limit: 40
+          display: 'Short Title (40 characters)'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: teaser
+        field:
+          input_type: text
+          character_limit: 250
+          display: 'Preview Content (250 characters)'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: content
+        field:
+          type: markdown
+          localizable: true
+      -
+        handle: fileupload
+        field:
+          fields:
+            -
+              handle: 'file title'
+              field:
+                input_type: text
+                display: 'File Name'
+                type: text
+                icon: text
+                listable: hidden
+            -
+              handle: pdf
+              field:
+                mode: grid
+                container: assets
+                folder: pdf
+                restrict: true
+                allow_uploads: true
+                max_files: 1
+                display: 'News Post PDF'
+                type: assets
+                icon: assets
+                listable: hidden
+          mode: table
+          reorderable: true
+          display: 'File Upload'
+          type: grid
+          icon: grid
+          listable: hidden
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: date
+        field:
+          type: date
+          required: true
+          validate:
+            - required
+      -
+        handle: tags
+        field:
+          type: terms
+          taxonomies:
+            - tags
+          display: Tags
+          mode: select
