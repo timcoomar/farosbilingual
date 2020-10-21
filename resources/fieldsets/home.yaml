@@ -9,7 +9,7 @@ fields:
       icon: text
       listable: hidden
       if_any:
-        title: 'equals Αρχικη'
+        title: 'equals Welcome'
   -
     handle: content1
     field:
