@@ -11,7 +11,7 @@ sections:
           validate:
             - required
       -
-        handle: 'short title'
+        handle: shorttitle
         field:
           input_type: text
           character_limit: 40
@@ -19,6 +19,7 @@ sections:
           type: text
           icon: text
           listable: hidden
+          antlers: false
       -
         handle: image
         field:
