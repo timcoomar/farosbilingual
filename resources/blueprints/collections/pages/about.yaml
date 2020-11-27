@@ -24,6 +24,196 @@ sections:
           listable: hidden
           if_any:
             title: 'contains About'
+      -
+        handle: title1
+        field:
+          input_type: text
+          antlers: false
+          display: 'Section 1 Title'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: content1
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: 'Section 1 Content'
+          type: markdown
+          icon: markdown
+          listable: hidden
+      -
+        handle: title2
+        field:
+          input_type: text
+          antlers: false
+          display: 'Section 2 Title'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: content2
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: 'Section 2 Content'
+          type: markdown
+          icon: markdown
+          listable: hidden
+      -
+        handle: title3
+        field:
+          input_type: text
+          antlers: false
+          display: 'Section 3 Title'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: content3
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: 'Section 3 Content'
+          type: markdown
+          icon: markdown
+          listable: hidden
+      -
+        handle: title4
+        field:
+          input_type: text
+          antlers: false
+          display: 'Section 4 Title'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: content4
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: 'Section 4 Content'
+          type: markdown
+          icon: markdown
+          listable: hidden
+      -
+        handle: annualreports
+        field:
+          fields:
+            -
+              handle: reporttitle
+              field:
+                input_type: text
+                antlers: false
+                display: 'Report Title'
+                type: text
+                icon: text
+                listable: hidden
+            -
+              handle: reportfile
+              field:
+                mode: grid
+                container: assets
+                folder: pdf
+                restrict: false
+                allow_uploads: true
+                display: 'Report pdf'
+                type: assets
+                icon: assets
+                listable: hidden
+          mode: table
+          reorderable: true
+          display: 'Annual Reports'
+          type: grid
+          icon: grid
+          listable: hidden
+      -
+        handle: financialreports
+        field:
+          fields:
+            -
+              handle: reporttitle
+              field:
+                input_type: text
+                antlers: false
+                display: 'Report Title'
+                type: text
+                icon: text
+                listable: hidden
+            -
+              handle: reportfile
+              field:
+                mode: grid
+                container: assets
+                folder: pdf
+                restrict: false
+                allow_uploads: true
+                display: 'Report pdf'
+                type: assets
+                icon: assets
+                listable: hidden
+          mode: table
+          reorderable: true
+          display: 'Financial Reports'
+          type: grid
+          icon: grid
+          listable: hidden
+      -
+        handle: statutes
+        field:
+          fields:
+            -
+              handle: reporttitle
+              field:
+                input_type: text
+                antlers: false
+                display: 'Report Title'
+                type: text
+                icon: text
+                listable: hidden
+            -
+              handle: reportfile
+              field:
+                mode: grid
+                container: assets
+                folder: pdf
+                restrict: false
+                allow_uploads: true
+                display: 'Report pdf'
+                type: assets
+                icon: assets
+                listable: hidden
+          mode: table
+          reorderable: true
+          display: Statutes
+          type: grid
+          icon: grid
+          listable: hidden
+      -
+        handle: title5
+        field:
+          input_type: text
+          antlers: false
+          display: 'Section 5 Title'
+          type: text
+          icon: text
+          listable: hidden
   sidebar:
     display: Sidebar
     fields:
@@ -51,4 +241,21 @@ sections:
           display: Template
           type: template
           icon: template
+          listable: hidden
+      -
+        handle: videos
+        field:
+          fields:
+            -
+              handle: video
+              field:
+                display: 'Youtube video'
+                type: video
+                icon: video
+                listable: hidden
+          mode: table
+          reorderable: true
+          display: Videos
+          type: grid
+          icon: grid
           listable: hidden
