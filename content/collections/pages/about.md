@@ -2,7 +2,7 @@
 title: About
 header_image: header-about.jpg
 updated_by: 5eb7e72e-e580-4a8d-81c6-51acd7db6565
-updated_at: 1606518553
+updated_at: 1606519022
 blueprint: about
 template: about
 title1: 'Our Story'
@@ -17,7 +17,6 @@ content2: 'Our vision is to protect refugee children and youth, help them realiz
 title3: Approach
 content3: 'We help unaccompanied children and refugee youth find safety, discover their worth, and build a future perspective. We work holistically and take responsibility for each refugee child and youth and provide individual tailored care. Through this we wish to see every unaccompanied child and refugee youth live with dignity and hope and to be equipped to make a positive change in society.'
 title4: Reports
-content4: ____
 title5: Media
 videos:
   -
