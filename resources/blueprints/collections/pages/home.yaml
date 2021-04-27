@@ -34,4 +34,57 @@ sections:
     display: Sections
     fields:
       -
-        import: home
+        handle: title1
+        field:
+          input_type: text
+          antlers: false
+          display: 'Who We Are - Title'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: content1
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: 'Who We Are - Content'
+          type: markdown
+          icon: markdown
+          listable: hidden
+      -
+        handle: title2
+        field:
+          input_type: text
+          antlers: false
+          display: 'Approach - Title'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: content2
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: 'Approach - Content'
+          type: markdown
+          icon: markdown
+          listable: hidden
+      -
+        handle: image2
+        field:
+          mode: grid
+          container: assets
+          restrict: false
+          allow_uploads: true
+          display: 'Approach - Image'
+          type: assets
+          icon: assets
+          listable: hidden
