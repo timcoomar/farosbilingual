@@ -35,17 +35,6 @@ fields:
       if:
         slug: 'equals home'
   -
-    handle: image2
-    field:
-      mode: grid
-      container: assets
-      restrict: false
-      allow_uploads: true
-      display: 'Image 2'
-      type: assets
-      icon: assets
-      listable: hidden
-  -
     handle: content2
     field:
       restrict: false

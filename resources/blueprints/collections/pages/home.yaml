@@ -1,0 +1,5 @@
+title: Home
+sections:
+  main:
+    display: Main
+    fields: {  }
