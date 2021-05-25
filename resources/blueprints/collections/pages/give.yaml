@@ -43,6 +43,14 @@ sections:
           max_items: 1
           listable: false
           localizable: true
+      -
+        handle: template
+        field:
+          hide_partials: true
+          display: Template
+          type: template
+          icon: template
+          listable: hidden
   content:
     display: Content
     fields:
@@ -51,7 +59,7 @@ sections:
         field:
           input_type: text
           antlers: false
-          display: Area
+          display: 'Area Title'
           type: text
           icon: text
           localizable: true
