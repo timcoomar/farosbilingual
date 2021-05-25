@@ -10,6 +10,7 @@ sections:
           required: true
           validate:
             - required
+          localizable: true
       -
         handle: title1
         field:
@@ -19,6 +20,7 @@ sections:
           type: text
           icon: text
           listable: hidden
+          localizable: true
       -
         handle: content1
         field:
@@ -32,6 +34,7 @@ sections:
           type: markdown
           icon: markdown
           listable: hidden
+          localizable: true
       -
         handle: title2
         field:
@@ -41,6 +44,7 @@ sections:
           type: text
           icon: text
           listable: hidden
+          localizable: true
       -
         handle: content2
         field:
@@ -54,6 +58,7 @@ sections:
           type: markdown
           icon: markdown
           listable: hidden
+          localizable: true
       -
         handle: title3
         field:
@@ -63,6 +68,7 @@ sections:
           type: text
           icon: text
           listable: hidden
+          localizable: true
       -
         handle: content3
         field:
@@ -76,6 +82,7 @@ sections:
           type: markdown
           icon: markdown
           listable: hidden
+          localizable: true
       -
         handle: title4
         field:
@@ -85,6 +92,7 @@ sections:
           type: text
           icon: text
           listable: hidden
+          localizable: true
       -
         handle: content4
         field:
@@ -98,6 +106,7 @@ sections:
           type: markdown
           icon: markdown
           listable: hidden
+          localizable: true
       -
         handle: annualreports
         field:
@@ -200,6 +209,7 @@ sections:
           type: text
           icon: text
           listable: hidden
+          localizable: true
       -
         handle: videos
         field:
