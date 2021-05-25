@@ -17,7 +17,7 @@ content4: |-
   In the centre, we offer food, informal education, vocational training, and recreational and sports activities. Our staff of social workers, psychologists, lawyers, and cultural mediators – as well as numerous volunteers – provides supportive and specialized care to each child.
 image4: services-dropin.jpg
 updated_by: 5eb7e72e-e580-4a8d-81c6-51acd7db6565
-updated_at: 1621971127
+updated_at: 1621971658
 title5: 'Education & Τraining'
 content5: |-
   Our education and training centre provides a unique program for unaccompanied minors and refugee youth. We teach them a number of soft skills that can be used in all situations and the education component focuses specifically on finding creative solutions to the problems that the participant might be facing, or those around them.
