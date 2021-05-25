@@ -16,8 +16,66 @@ project_1_items:
     project_1_image: partners/logo-unhcr.png
     project_1_text: 'United Nations'' Refugee Agency, UNHCR, supports Faros'' Horizon Center and its educational programs.'
     project_1_url: null
+  -
+    project_1_image: partners/logo-mit-dlab.jpg
+    project_1_text: 'MIT D-Lab develops solutions to global poverty challenges. It''s Faros'' partner at Horizon Center''s educational programs.'
+    project_1_url: null
+  -
+    project_1_image: partners/logo-king-baudouin-foundation.jpg
+    project_1_text: 'The King Baudouin Foundation is an independent and pluralistic foundation that supports Faros'' Horizon and Drop-in Center.'
+    project_1_url: null
+  -
+    project_1_image: partners/logo-epim.jpg
+    project_1_text: 'The European Programme for Integration and Migration is an initiative of 25 private foundations that supports Faros'' Horizon and Drop-in Center.'
+    project_1_url: null
+  -
+    project_1_image: partners/logo-us-embassy-athens.jpg
+    project_1_text: 'U.S. Embassy in Athens supports Faros'' programs.'
+    project_1_url: null
+  -
+    project_1_image: partners/logo-ias.jpg
+    project_1_text: 'International Aid Services is a Denmark based relief and development organization that supports Faros'' programs'
+    project_1_url: null
+  -
+    project_1_image: partners/logo-eccex.png
+    project_1_text: 'The Exarcheia Church supports Faros'' programs since its establishment in 2014'
+    project_1_url: null
+  -
+    project_1_image: partners/logo-world-communion-of-reformed-churches.jpg
+    project_1_text: 'The World Communion of Reformed Churches represents 100 million Christians worldwide. It supports Faros'' Drop-in Center.'
+    project_1_url: null
+  -
+    project_1_image: partners/logo-bykirken.jpg
+    project_1_text: 'Bykirken supports Faros'' programs.'
+    project_1_url: null
+  -
+    project_1_image: partners/logo-mariagerfjord.jpeg
+    project_1_text: 'Mariagerfjord Frikirke supports Faros'' programs'
+    project_1_url: null
+  -
+    project_1_image: partners/logo-roskilde-baptist.jpg
+    project_1_text: 'Roskilde Baptistkirke supports Faros'' programs'
+    project_1_url: null
 updated_by: 5eb7e72e-e580-4a8d-81c6-51acd7db6565
-updated_at: 1621923848
+updated_at: 1621924212
 template: projects
 header_image: header-approach.jpg
+project_2_title: 'Past Donors'
+project_2_items:
+  -
+    project_2_image: partners/logo-unicef.png
+    project_2_text: 'The United Nations Children''s Fund, a United Nations agency, supported Faros'' Family Center.'
+    project_2_url: null
+  -
+    project_2_image: partners/logo-save-the-children.jpg
+    project_2_text: 'Save The Children, an international NGO, supported our protection program at Elliniko Camp.'
+    project_2_url: null
+  -
+    project_2_image: partners/logo-irc.png
+    project_2_text: 'The International Rescue Committee, an international NGO, supported our Street Work program'
+    project_2_url: null
+  -
+    project_2_image: partners/logo-tearfund.jpg
+    project_2_text: 'Tearfund, an international Christian relief and development agency based in the UK, supported our Street Work program'
+    project_2_url: null
 ---
