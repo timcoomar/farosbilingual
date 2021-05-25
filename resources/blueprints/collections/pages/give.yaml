@@ -2,4 +2,109 @@ title: Give
 sections:
   main:
     display: Main
-    fields: {  }
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: header_image
+        field:
+          mode: grid
+          container: assets
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: 'Header Image'
+          type: assets
+          icon: assets
+          listable: hidden
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true
+  content:
+    display: Content
+    fields:
+      -
+        handle: area_title
+        field:
+          input_type: text
+          antlers: false
+          display: Area
+          type: text
+          icon: text
+          localizable: true
+          listable: hidden
+      -
+        handle: section_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Section Title'
+          type: text
+          icon: text
+          localizable: true
+          listable: hidden
+      -
+        handle: section_content
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: 'Section Content'
+          type: markdown
+          icon: markdown
+          localizable: true
+          listable: hidden
+      -
+        handle: bank_details
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: 'Bank Details'
+          type: markdown
+          icon: markdown
+          localizable: true
+          listable: hidden
+      -
+        handle: paypal_button
+        field:
+          theme: material
+          mode: htmlmixed
+          indent_type: tabs
+          indent_size: 4
+          key_map: default
+          line_numbers: true
+          line_wrapping: true
+          display: 'Paypal Button'
+          type: code
+          icon: code
+          listable: hidden
