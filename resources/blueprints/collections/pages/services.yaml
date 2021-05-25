@@ -178,6 +178,42 @@ sections:
           type: assets
           icon: assets
           listable: hidden
+      -
+        handle: title5
+        field:
+          input_type: text
+          antlers: false
+          display: 'Section 5 Title'
+          type: text
+          icon: text
+          localizable: true
+          listable: hidden
+      -
+        handle: content5
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: 'Section 5 Content'
+          type: markdown
+          icon: markdown
+          localizable: true
+          listable: hidden
+      -
+        handle: image5
+        field:
+          mode: grid
+          container: assets
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: 'Section 5 Image'
+          type: assets
+          icon: assets
+          listable: hidden
   quote:
     display: Quote
     fields:
