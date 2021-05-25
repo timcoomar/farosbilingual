@@ -8,9 +8,16 @@ project_1_items:
     project_1_image: logo-velux.png
     project_1_text: 'Velux Foundations is a philanthropic foundation, based in Denmark that supports the Horizon Center.'
     project_1_url: 'https://veluxfoundations.dk/en'
+  -
+    project_1_image: logo-hellenic-republic.jpg
+    project_1_text: 'EU''s Asylum, Migration, and Integration Fund (AMIF) for the period 2014-20 is supporting Faros'' Shelter.'
+    project_1_url: null
+  -
+    project_1_image: logo-unhcr.png
+    project_1_text: 'United Nations'' Refugee Agency, UNHCR, supports Faros'' Horizon Center and its educational programs.'
+    project_1_url: null
 updated_by: 5eb7e72e-e580-4a8d-81c6-51acd7db6565
-updated_at: 1621923259
+updated_at: 1621923566
 template: projects
-header_image:
-  - header-approach.jpg
+header_image: header-approach.jpg
 ---
