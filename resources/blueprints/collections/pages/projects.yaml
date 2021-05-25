@@ -10,6 +10,7 @@ sections:
           required: true
           validate:
             - required
+          localizable: true
       -
         handle: header_image
         field:
@@ -62,6 +63,7 @@ sections:
           type: text
           icon: text
           listable: hidden
+          localizable: true
       -
         handle: project_1_summary
         field:
@@ -75,6 +77,7 @@ sections:
           type: markdown
           icon: markdown
           listable: hidden
+          localizable: true
       -
         handle: project_1_items
         field:
@@ -115,6 +118,7 @@ sections:
           type: grid
           icon: grid
           listable: hidden
+          localizable: true
   past_donors:
     display: 'Past Donors'
     fields:
@@ -127,6 +131,7 @@ sections:
           type: text
           icon: text
           listable: hidden
+          localizable: true
       -
         handle: project_2_summary
         field:
@@ -140,6 +145,7 @@ sections:
           type: markdown
           icon: markdown
           listable: hidden
+          localizable: true
       -
         handle: project_2_items
         field:
@@ -179,3 +185,4 @@ sections:
           type: grid
           icon: grid
           listable: hidden
+          localizable: true
