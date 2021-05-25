@@ -17,7 +17,7 @@ project_1_items:
     project_1_text: 'United Nations'' Refugee Agency, UNHCR, supports Faros'' Horizon Center and its educational programs.'
     project_1_url: null
 updated_by: 5eb7e72e-e580-4a8d-81c6-51acd7db6565
-updated_at: 1621923566
+updated_at: 1621923728
 template: projects
 header_image: header-approach.jpg
 ---
