@@ -91,6 +91,7 @@ sections:
                 type: assets
                 icon: assets
                 listable: hidden
+                folder: partners
             -
               handle: project_1_text
               field:
@@ -155,6 +156,7 @@ sections:
                 type: assets
                 icon: assets
                 listable: hidden
+                folder: partners
             -
               handle: project_2_text
               field:
