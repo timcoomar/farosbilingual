@@ -20,6 +20,8 @@ sections:
           type: assets
           icon: assets
           listable: hidden
+          container: assets
+          max_files: 1
   sidebar:
     display: Sidebar
     fields:
