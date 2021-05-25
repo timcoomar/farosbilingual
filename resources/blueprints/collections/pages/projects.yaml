@@ -10,6 +10,16 @@ sections:
           required: true
           validate:
             - required
+      -
+        handle: header_image
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          display: 'Header Image'
+          type: assets
+          icon: assets
+          listable: hidden
   sidebar:
     display: Sidebar
     fields:
