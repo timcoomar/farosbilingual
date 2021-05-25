@@ -107,7 +107,7 @@ sections:
                 type: link
                 icon: link
                 listable: hidden
-          mode: stacked
+          mode: table
           add_row: 'Add Partner'
           reorderable: true
           display: 'Project Area 1 Items'
