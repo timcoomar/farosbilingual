@@ -1,4 +1,7 @@
 title: Pages
+sites:
+  - default
+  - gr
 revisions: false
 route: '{parent_uri}/{slug}'
 structure:
