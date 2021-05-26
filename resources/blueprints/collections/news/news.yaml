@@ -12,17 +12,6 @@ sections:
             - required
           localizable: true
       -
-        handle: shorttitle
-        field:
-          input_type: text
-          character_limit: 40
-          display: 'Short Title (40 characters)'
-          type: text
-          icon: text
-          listable: hidden
-          antlers: false
-          localizable: true
-      -
         handle: image
         field:
           mode: grid
@@ -35,15 +24,25 @@ sections:
           icon: assets
           listable: hidden
       -
-        handle: teaser
+        handle: shorttitle
         field:
           input_type: text
-          character_limit: 250
-          display: 'Preview Content (250 characters)'
+          character_limit: 40
+          display: 'Short Title (40 characters)'
           type: text
           icon: text
           listable: hidden
+          antlers: false
           localizable: true
+      -
+        handle: teaser
+        field:
+          character_limit: '250'
+          antlers: false
+          display: 'Preview Content (250 characters)'
+          type: textarea
+          icon: textarea
+          listable: hidden
       -
         handle: content
         field:
@@ -80,6 +79,17 @@ sections:
           type: grid
           icon: grid
           listable: hidden
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
       -
         handle: newsdate
         field:
@@ -95,24 +105,6 @@ sections:
           type: date
           icon: date
           listable: hidden
-  sidebar:
-    display: Sidebar
-    fields:
-      -
-        handle: slug
-        field:
-          type: slug
-          required: true
-          localizable: true
-          validate:
-            - required
-      -
-        handle: date
-        field:
-          type: date
-          required: true
-          validate:
-            - required
       -
         handle: tags
         field:
@@ -121,3 +113,8 @@ sections:
             - tags
           display: Tags
           mode: select
+      -
+        handle: date
+        field:
+          type: date
+          required: true
