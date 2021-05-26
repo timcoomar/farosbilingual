@@ -3,3 +3,4 @@ email:
   -
     to: faros@faros.org
     subject: 'Submission from Faros website "Contact" page'
+    html: contact
