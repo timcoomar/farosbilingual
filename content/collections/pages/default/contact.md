@@ -5,7 +5,8 @@ title: Contact
 section_title: 'We would love to hear from you'
 author: 5eb7e72e-e580-4a8d-81c6-51acd7db6565
 updated_by: 5eb7e72e-e580-4a8d-81c6-51acd7db6565
-updated_at: 1621999891
+updated_at: 1621999976
+template: contact
 ---
 You may email us at [faros@faros.org.gr](mailto://faros@faros.org.gr) or call us on [(+30) 210 8251611](tel://+302108251611) or visit us at our office located at Mavrommateon 5, Athens 10682.
 
