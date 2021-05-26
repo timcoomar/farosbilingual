@@ -269,3 +269,37 @@ sections:
           type: template
           icon: template
           listable: hidden
+  our_team:
+    display: 'Our Team'
+    fields:
+      -
+        handle: team_carousel
+        field:
+          fields:
+            -
+              handle: team_member_name
+              field:
+                input_type: text
+                antlers: false
+                display: 'Team Member Name'
+                type: text
+                icon: text
+                listable: hidden
+            -
+              handle: team_member_image
+              field:
+                mode: grid
+                container: assets
+                restrict: false
+                allow_uploads: true
+                max_files: 1
+                display: 'Team Member Image'
+                type: assets
+                icon: assets
+                listable: hidden
+          mode: table
+          reorderable: true
+          display: 'Team Carousel'
+          type: grid
+          icon: grid
+          listable: hidden
