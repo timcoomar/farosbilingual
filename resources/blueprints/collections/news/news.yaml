@@ -12,6 +12,17 @@ sections:
             - required
           localizable: true
       -
+        handle: shorttitle
+        field:
+          input_type: text
+          character_limit: 40
+          display: 'Short Title (40 characters)'
+          type: text
+          icon: text
+          listable: hidden
+          antlers: false
+          localizable: true
+      -
         handle: image
         field:
           mode: grid
@@ -24,17 +35,6 @@ sections:
           icon: assets
           listable: hidden
       -
-        handle: shorttitle
-        field:
-          input_type: text
-          character_limit: 40
-          display: 'Short Title (40 characters)'
-          type: text
-          icon: text
-          listable: hidden
-          antlers: false
-          localizable: true
-      -
         handle: teaser
         field:
           character_limit: '250'
@@ -43,6 +43,7 @@ sections:
           type: textarea
           icon: textarea
           listable: hidden
+          localizable: true
       -
         handle: content
         field:
@@ -118,3 +119,5 @@ sections:
         field:
           type: date
           required: true
+          validate:
+            - required
