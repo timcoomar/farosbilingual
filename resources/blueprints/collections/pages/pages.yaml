@@ -10,6 +10,17 @@ sections:
           required: true
           validate:
             - required
+          localizable: true
+      -
+        handle: area_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Area Title'
+          type: text
+          icon: text
+          localizable: true
+          listable: hidden
       -
         handle: content
         field:
@@ -50,8 +61,3 @@ sections:
           default: current
           localizable: true
           max_items: 1
-  page_specific:
-    display: 'Page Specific'
-    fields:
-      -
-        import: home
