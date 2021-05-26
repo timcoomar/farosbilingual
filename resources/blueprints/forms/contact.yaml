@@ -1,0 +1,44 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: name
+        field:
+          placeholder: 'Write your name or organisation here'
+          input_type: text
+          antlers: false
+          display: Name
+          type: text
+          icon: text
+          localizable: true
+          listable: hidden
+          validate:
+            - required
+      -
+        handle: email
+        field:
+          placeholder: 'We need this to write you back'
+          input_type: email
+          antlers: false
+          display: Email
+          type: text
+          icon: text
+          localizable: true
+          listable: hidden
+          validate:
+            - required
+            - email
+      -
+        handle: message
+        field:
+          placeholder: 'What would you like to say...?'
+          character_limit: '600'
+          antlers: false
+          display: Message
+          type: textarea
+          icon: textarea
+          localizable: true
+          listable: hidden
+          validate:
+            - required
