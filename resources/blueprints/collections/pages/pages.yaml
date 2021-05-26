@@ -22,6 +22,16 @@ sections:
           localizable: true
           listable: hidden
       -
+        handle: section_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Section Title'
+          type: text
+          icon: text
+          localizable: true
+          listable: hidden
+      -
         handle: content
         field:
           type: markdown
