@@ -30,7 +30,7 @@ sections:
             - required
             - email
       -
-        handle: message
+        handle: content
         field:
           placeholder: 'What would you like to say...?'
           character_limit: '600'
