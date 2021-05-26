@@ -80,6 +80,21 @@ sections:
           type: grid
           icon: grid
           listable: hidden
+      -
+        handle: newsdate
+        field:
+          mode: single
+          time_enabled: false
+          time_required: false
+          earliest_date: '2014-01-01'
+          full_width: false
+          inline: false
+          columns: 1
+          rows: 1
+          display: 'News Date'
+          type: date
+          icon: date
+          listable: hidden
   sidebar:
     display: Sidebar
     fields:
