@@ -50,6 +50,7 @@ sections:
           display: Code
           type: code
           icon: code
+          localizable: true
           listable: hidden
   sidebar:
     display: Sidebar
