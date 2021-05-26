@@ -4,7 +4,7 @@ blueprint: about
 title: About
 header_image: header-about.jpg
 updated_by: 5eb7e72e-e580-4a8d-81c6-51acd7db6565
-updated_at: 1620391651
+updated_at: 1622012906
 template: about
 title1: 'Our Story'
 content1: |-
@@ -33,4 +33,8 @@ videos:
   -
     video: 'https://www.youtube.com/watch?v=mau3QXqxMfo'
 content4: 'You may download pdf files of our annual and financial reports and statutes and accreditations below:'
+team_carousel:
+  -
+    team_member_name: 'Dan Biswas'
+    team_member_image: christy---author-pic.jpg
 ---
