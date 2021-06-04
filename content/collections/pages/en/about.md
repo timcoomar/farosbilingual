@@ -4,7 +4,7 @@ blueprint: about
 title: About
 header_image: header-about.jpg
 updated_by: 5eb7e72e-e580-4a8d-81c6-51acd7db6565
-updated_at: 1622814826
+updated_at: 1622815162
 template: about
 title1: 'Our Story'
 content1: |-
@@ -17,7 +17,7 @@ title2: Vision
 content2: 'Our vision is to protect refugee children and youth, help them realize their full potential, and guide them in the direction of a better future. Compassion, respect, encouragement, friendship, and integrity are core values that unite us and shape our approach to helping refugee children.'
 title3: Approach
 content3: 'We help unaccompanied children and refugee youth find safety, discover their worth, and build a future perspective. We work holistically and take responsibility for each refugee child and youth and provide individual tailored care. Through this we wish to see every unaccompanied child and refugee youth live with dignity and hope and to be equipped to make a positive change in society.'
-title4: Reports
+title4: 'Reports and Statutes'
 title5: Media
 videos:
   -
@@ -68,4 +68,9 @@ credentials:
   -
     reporttitle: 'ISO 9001 Accreditation'
     reportfile: pdf/iso9001.pdf
+short_title1: Story
+short_title2: Vision
+short_title3: Approach
+short_title4: Reports
+short_title5: Media
 ---
