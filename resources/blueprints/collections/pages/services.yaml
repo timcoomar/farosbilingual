@@ -72,6 +72,7 @@ sections:
           display: 'Section 1 Short Title'
           type: text
           icon: text
+          localizable: true
           listable: hidden
       -
         handle: content1
@@ -105,6 +106,7 @@ sections:
           display: 'Section 2 Short Title'
           type: text
           icon: text
+          localizable: true
           listable: hidden
       -
         handle: content2
@@ -150,6 +152,7 @@ sections:
           display: 'Section 3 Short Title'
           type: text
           icon: text
+          localizable: true
           listable: hidden
       -
         handle: content3
@@ -195,6 +198,7 @@ sections:
           display: 'Section 4 Short Title'
           type: text
           icon: text
+          localizable: true
           listable: hidden
       -
         handle: content4
@@ -240,6 +244,7 @@ sections:
           display: 'Section 5 Short Title'
           type: text
           icon: text
+          localizable: true
           listable: hidden
       -
         handle: content5
