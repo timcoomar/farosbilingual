@@ -4,7 +4,7 @@ blueprint: about
 title: About
 header_image: header-about.jpg
 updated_by: 5eb7e72e-e580-4a8d-81c6-51acd7db6565
-updated_at: 1622814208
+updated_at: 1622814826
 template: about
 title1: 'Our Story'
 content1: |-
@@ -64,4 +64,8 @@ statutes:
     reporttitle: 'Faros Organisational Structure'
     reportfile:
       - pdf/faros-organisation.pdf
+credentials:
+  -
+    reporttitle: 'ISO 9001 Accreditation'
+    reportfile: pdf/iso9001.pdf
 ---
