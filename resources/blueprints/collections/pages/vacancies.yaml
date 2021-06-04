@@ -69,80 +69,95 @@ sections:
     display: Vacancies
     fields:
       -
-        handle: job
+        handle: vacancies
         field:
-          input_type: text
-          antlers: false
-          display: 'Job Title'
-          type: text
-          icon: text
+          fields:
+            -
+              handle: job
+              field:
+                input_type: text
+                antlers: false
+                display: 'Job Title'
+                type: text
+                icon: text
+                listable: hidden
+            -
+              handle: dateposted
+              field:
+                mode: single
+                time_enabled: false
+                time_required: false
+                earliest_date: '2014-01-01'
+                full_width: false
+                inline: false
+                columns: 1
+                rows: 1
+                display: 'Date Posted'
+                type: date
+                icon: date
+                listable: hidden
+            -
+              handle: image
+              field:
+                mode: grid
+                container: assets
+                restrict: false
+                allow_uploads: true
+                max_files: 1
+                display: 'Vacancy Image'
+                type: assets
+                icon: assets
+                listable: hidden
+            -
+              handle: pdf
+              field:
+                mode: grid
+                container: assets
+                folder: pdf
+                restrict: true
+                allow_uploads: true
+                max_files: 1
+                display: 'Job PDF'
+                type: assets
+                icon: assets
+                listable: hidden
+          mode: table
+          reorderable: true
+          display: Vacancies
+          type: grid
+          icon: grid
           localizable: true
-          listable: hidden
-      -
-        handle: date_posted
-        field:
-          mode: single
-          time_enabled: false
-          time_required: false
-          earliest_date: '1900-01-01'
-          full_width: false
-          inline: false
-          columns: 1
-          rows: 1
-          display: 'Date Posted'
-          type: date
-          icon: date
-          listable: hidden
-      -
-        handle: vacancy_image
-        field:
-          mode: grid
-          restrict: false
-          allow_uploads: true
-          display: 'Vacancy Image'
-          type: assets
-          icon: assets
-          listable: hidden
-      -
-        handle: job_pdf
-        field:
-          mode: grid
-          container: assets
-          folder: pdf
-          restrict: true
-          allow_uploads: true
-          max_files: 1
-          display: 'Job pdf'
-          type: assets
-          icon: assets
           listable: hidden
   tenders:
     display: Tenders
     fields:
       -
-        handle: tender_description
+        handle: tenders
         field:
-          restrict: false
-          automatic_line_breaks: true
-          automatic_links: false
-          escape_markup: false
-          smartypants: false
-          antlers: false
-          display: 'Tender Description'
-          type: markdown
-          icon: markdown
+          fields:
+            -
+              handle: tender
+              field:
+                input_type: text
+                antlers: false
+                display: 'Tender Description'
+                type: text
+                icon: text
+                listable: hidden
+            -
+              handle: contract
+              field:
+                mode: grid
+                restrict: false
+                allow_uploads: true
+                display: 'Tender PDF'
+                type: assets
+                icon: assets
+                listable: hidden
+          mode: table
+          reorderable: true
+          display: Tenders
+          type: grid
+          icon: grid
           localizable: true
-          listable: hidden
-      -
-        handle: tender_pdf
-        field:
-          mode: grid
-          container: assets
-          folder: pdf
-          restrict: true
-          allow_uploads: true
-          max_files: 1
-          display: 'Tender pdf'
-          type: assets
-          icon: assets
           listable: hidden
