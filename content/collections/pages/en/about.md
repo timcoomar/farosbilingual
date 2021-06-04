@@ -4,7 +4,7 @@ blueprint: about
 title: About
 header_image: header-about.jpg
 updated_by: 5eb7e72e-e580-4a8d-81c6-51acd7db6565
-updated_at: 1622012906
+updated_at: 1622813938
 template: about
 title1: 'Our Story'
 content1: |-
@@ -37,4 +37,31 @@ team_carousel:
   -
     team_member_name: 'Dan Biswas'
     team_member_image: christy---author-pic.jpg
+annualreports:
+  -
+    reporttitle: 'Annual Report 2020'
+    reportfile:
+      - pdf/faros-annual-report-2020.pdf
+  -
+    reporttitle: 'Annual Report 2019'
+    reportfile:
+      - pdf/faros-annual-report-2019.pdf
+financialreports:
+  -
+    reporttitle: 'Financial Report 2019'
+    reportfile:
+      - pdf/faros-finances-2019.pdf
+  -
+    reporttitle: 'Financial Report 2018'
+    reportfile:
+      - pdf/faros-finances-2018.pdf
+statutes:
+  -
+    reporttitle: 'Faros Statutes'
+    reportfile:
+      - pdf/faros-statutes-ammendments.pdf
+  -
+    reporttitle: 'Faros Organisational Structure'
+    reportfile:
+      - pdf/faros-organisation.pdf
 ---
