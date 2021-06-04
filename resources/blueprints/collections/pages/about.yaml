@@ -138,6 +138,7 @@ sections:
           type: grid
           icon: grid
           listable: hidden
+          localizable: true
       -
         handle: financialreports
         field:
@@ -169,6 +170,7 @@ sections:
           type: grid
           icon: grid
           listable: hidden
+          localizable: true
       -
         handle: statutes
         field:
@@ -200,6 +202,7 @@ sections:
           type: grid
           icon: grid
           listable: hidden
+          localizable: true
       -
         handle: title5
         field:
@@ -224,6 +227,38 @@ sections:
           mode: table
           reorderable: true
           display: Videos
+          type: grid
+          icon: grid
+          listable: hidden
+      -
+        handle: credentials
+        field:
+          fields:
+            -
+              handle: reporttitle
+              field:
+                input_type: text
+                antlers: false
+                display: 'Report Title'
+                type: text
+                icon: text
+                listable: hidden
+            -
+              handle: reportfile
+              field:
+                mode: grid
+                container: assets
+                folder: pdf
+                restrict: true
+                allow_uploads: true
+                max_files: 1
+                display: 'Report File'
+                type: assets
+                icon: assets
+                listable: hidden
+          mode: table
+          reorderable: true
+          display: Credentials
           type: grid
           icon: grid
           listable: hidden
@@ -303,3 +338,4 @@ sections:
           type: grid
           icon: grid
           listable: hidden
+          localizable: true
