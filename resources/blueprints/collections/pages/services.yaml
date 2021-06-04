@@ -65,6 +65,15 @@ sections:
           localizable: true
           listable: hidden
       -
+        handle: short_title1
+        field:
+          input_type: text
+          antlers: false
+          display: 'Section 1 Short Title'
+          type: text
+          icon: text
+          listable: hidden
+      -
         handle: content1
         field:
           restrict: false
@@ -87,6 +96,15 @@ sections:
           type: text
           icon: text
           localizable: true
+          listable: hidden
+      -
+        handle: short_title2
+        field:
+          input_type: text
+          antlers: false
+          display: 'Section 2 Short Title'
+          type: text
+          icon: text
           listable: hidden
       -
         handle: content2
@@ -125,6 +143,15 @@ sections:
           localizable: true
           listable: hidden
       -
+        handle: short_title3
+        field:
+          input_type: text
+          antlers: false
+          display: 'Section 3 Short Title'
+          type: text
+          icon: text
+          listable: hidden
+      -
         handle: content3
         field:
           restrict: false
@@ -161,6 +188,15 @@ sections:
           localizable: true
           listable: hidden
       -
+        handle: short_title4
+        field:
+          input_type: text
+          antlers: false
+          display: 'Section 4 Short Title'
+          type: text
+          icon: text
+          listable: hidden
+      -
         handle: content4
         field:
           restrict: false
@@ -195,6 +231,15 @@ sections:
           type: text
           icon: text
           localizable: true
+          listable: hidden
+      -
+        handle: short_title5
+        field:
+          input_type: text
+          antlers: false
+          display: 'Section 5 Short Title'
+          type: text
+          icon: text
           listable: hidden
       -
         handle: content5
