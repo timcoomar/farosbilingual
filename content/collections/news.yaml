@@ -1,6 +1,6 @@
 title: News
 sites:
-  - default
+  - en
   - gr
 template: newspost
 layout: layout

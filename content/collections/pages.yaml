@@ -1,6 +1,6 @@
 title: Pages
 sites:
-  - default
+  - en
   - gr
 revisions: false
 route: '{parent_uri}/{slug}'
