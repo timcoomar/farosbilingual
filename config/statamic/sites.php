@@ -15,10 +15,16 @@ return [
 
     'sites' => [
 
-        'default' => [
+        'en' => [
             'name' => config('app.name'),
-            'locale' => 'en_US',
+            'locale' => 'en',
             'url' => '/',
+        ],
+
+        'gr' => [
+            'name' => 'Faros Greek',
+            'locale' => 'gr',
+            'url' => '/gr/',
         ],
 
     ],

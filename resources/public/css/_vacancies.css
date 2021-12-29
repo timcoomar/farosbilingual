@@ -1,0 +1,26 @@
+ul.list-vacancies {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
+  grid-auto-rows: minmax(100px, 1fr);
+  grid-gap: 1.4rem;
+}
+ul.list-vacancies li {
+  border: 1px solid var(--faros-gray);
+}
+ul.list-vacancies li a {
+  display: block;
+  font-size: 1.2rem;
+  text-align: center;
+}
+ul.list-vacancies li a img {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+ul.list-vacancies li .vacancy-date {
+  display: block;
+  padding: 0.2rem 0.8rem 0.5rem;
+  font-size: 0.8rem;
+  text-align: center;
+}

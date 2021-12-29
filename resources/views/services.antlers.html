@@ -1,0 +1,101 @@
+{{ partial:partials/menu_main }}
+
+<div class="grid-page" id="top"> 
+
+  <nav class="nav-main home-section--nav home-grid--nav">
+    <!-- {{ partial:partials/svg_journey }} -->
+    <ul class="languageswitcher-main">
+      {{ locales current_first="false" }}
+          {{ if total_results > 1 }}
+              <a href="{{ url }}">{{ if is_current }}<strong>{{ /if }}{{ locale:handle }}{{ if is_current }}</strong>{{ /if }}</a>{{ unless last}} | {{ /unless }}
+          {{ /if }}
+      {{ /locales }}  
+    </ul>
+  </nav>
+
+  <header class="page-header--generic page-header--nomenu" id="page-header--nomenu">
+    <a href="{{ link to="/" }}" class="site-logo">
+      <img src="{{ asset url='/assets/faros-logo-white-horizontal.png' }}{{ url }}{{ /asset }}">
+    </a>
+    <div class="page-intro__image">
+      {{ if header_image }}
+        {{ header_image | image }}
+      {{ /if }}
+    </div>
+    <div class="page-intro__text">
+      <h1 class="page-intro__title">{{ title }}</h1>
+    </div>
+  </header>
+
+  <main class="about-section about-grid--main">
+
+    <header class="summary-header">
+      <h1 class="summary-header__title">{{ title1 }}</h1>
+      <div class="summary-header__content">
+        {{ content1 | markdown }}
+      </div>
+    </header> 
+
+    <article class="section-a parallax" id="section1">
+      <header class="section-a__header"><span>Services</span></header>
+      <h2 class="section-a__title">{{ title2 }}</h2>
+      <div class="section-a__text">
+        {{ content2 | markdown }}
+      </div>
+    </article>
+
+    <article class="section-b section-b--l section-innovation parallax" id="section2">
+      <div class="section-b__content">
+        <header class="section-b__header"><span>Services</span></header>
+        <h2 class="section-b__title">{{ title3 }}</h2>
+        <div class="section-b__text">
+          {{ content3 | markdown }}
+        </div>
+      </div> 
+      <figure class="section-b__image">
+        {{ assets:image3 }}
+          <img src="{{ permalink }}">
+        {{ /assets:image3 }}
+      </figure>       
+    </article>
+
+    <article class="section-b section-b--r section-dropin" id="section3">
+      <div class="section-b__content">
+        <header class="section-b__header">Services</header>
+        <h2 class="section-b__title">{{ title4 }}</h2>
+        <div class="section-b__text">
+          {{ content4 | markdown }}
+        </div>
+      </div>
+      <figure class="section-b__image">
+        {{ assets:image4 }}
+          <img src="{{ permalink }}">
+        {{ /assets:image4 }}
+      </figure>
+    </article>
+
+    {{ partial:partials/quote }}
+
+    <article class="section-b section-b--l section-family parallax" id="section4">
+        <div class="section-b__content">
+          <header class="section-b__header"><span>Services</span></header>
+          <h2 class="section-b__title">{{ title5 }}</h2>
+          <div class="section-b__text">
+              {{ content5 | markdown }}
+          </div>
+        </div>
+        <figure class="section-b__image">
+          {{ assets:image5 }}
+            <img src="{{ permalink }}">
+          {{ /assets:image5 }}
+        </figure>
+    </article>
+
+  </main>
+
+  {{ partial:partials/footer_nomap }}
+
+  </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="{{ theme:js src='site-home.js' }}"></script>

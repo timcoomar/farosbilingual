@@ -38,7 +38,20 @@ return [
     */
 
     'widgets' => [
-        'getting_started',
+      [
+        'type' => 'updater',
+        'width' => 50,
+      ],
+      [
+          'type' => 'collection',
+          'collection' => 'news',
+          'width' => 50,
+          'limit' => 10,
+      ],
+      [
+        'type' => 'getting_started',
+        'width' => 100
+      ],
     ],
 
     /*
