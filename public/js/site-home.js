@@ -11,12 +11,12 @@ $(document).ready(function() {
   $(".donation--time").hover(function() {
       $(this).hasClass("hovered") ? $(".donation--money").removeClass("hovered") : ($(this).addClass("hovered"),
       $(".donation--money").removeClass("hovered"),
-      $(".give-img").attr("src", "https://faros.org/site/themes/faros2019/assets/give-time.jpg"))
+      $(".give-img").attr("src", "https://faros.org/assets/give-time.jpg"))
   }),
   $(".donation--money").hover(function() {
       $(this).hasClass("hovered") ? $(".donation--time").removeClass("hovered") : ($(this).addClass("hovered"),
       $(".donation--time").removeClass("hovered"),
-      $(".give-img").attr("src", "https://faros.org/site/themes/faros2019/assets/give-money.jpg"))
+      $(".give-img").attr("src", "https://faros.org/assets/give-money.jpg"))
   }),
   $(".site-menu--main svg a").click(function() {
       return window.location = $(this).attr("href"),
