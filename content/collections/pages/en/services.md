@@ -15,8 +15,8 @@ content3: |-
 image3: services-dropin.jpg
 title4: Shelter
 content4: 'Faros’ shelter can host 22 unaccompanied refugee boys from the ages of 10 to 18. It is designed to be able to provide protection and immediately take in children from off the street. The shelter provides a temporary home to unaccompanied children, where the focus is to provide the best possible individual care to every child. Our approach is emphasized in our relationship with the children; we try to restore normality, guide them in critical life decisions, and enhance their curiosity and creativity through various activities.'
-updated_by: 9922d37b-f014-49d3-aa09-1d2d4596446f
-updated_at: 1625211323
+updated_by: 5eb7e72e-e580-4a8d-81c6-51acd7db6565
+updated_at: 1640857857
 title5: Education
 content5: |-
   Our education and training centre provides a unique program for unaccompanied minors and refugee youth. We teach them a number of soft skills that can be used in all situations and the education component focuses specifically on finding creative solutions to the problems that the participant might be facing, or those around them.
@@ -31,4 +31,5 @@ short_title3: Drop-in
 short_title4: Shelter
 short_title5: Education
 image2: services-streetwork.jpg
+image4: mahmadullah_photo.jpg
 ---
