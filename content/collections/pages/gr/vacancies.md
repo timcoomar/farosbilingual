@@ -5,20 +5,30 @@ title: Ευκαιρίες
 content1: 'Ευκαιρίες απασχόλησης:'
 vacancies:
   -
-    job: 'Ψυχολόγος για ασυνόδευτα ανήλικα παιδιά'
+    job: 'Υπεύθυνος Προγράμματος Ένταξης'
+    dateposted: '2021-09-29'
+    image: Integration-Program-Officer_Picture-1633002305.png
+    pdf: pdf/JA_Integration-Program-Officer_202109.docx.pdf
+  -
+    job: 'Καλύφθηκε - Υπεύθυνος Επικοινωνιών'
+    dateposted: '2021-08-02'
+    image: Communications.jpg
+    pdf: pdf/Comms-Officer-JD-020821.pdf
+  -
+    job: 'Καλύφθηκε - Ψυχολόγος για ασυνόδευτα ανήλικα παιδιά'
     dateposted: '2021-06-01'
     image: psychologist_010621.png
     pdf: pdf/faros-job-psychologist.pdf
   -
-    job: 'Υπεύθυνη Προγράμματος για τα κορίτσια του Horizon'
+    job: 'Καλύφθηκε - Υπεύθυνη Προγράμματος για τα κορίτσια του Horizon'
     dateposted: '2021-02-18'
     image: girl-design.jpg
     pdf: pdf/girls-design-program-lead-(2021).pdf
   -
-    job: 'Φροντιστής για ασυνόδευτα ανήλικα παιδιά'
+    job: 'Καλύφθηκε - Φροντιστής για ασυνόδευτα ανήλικα παιδιά'
     dateposted: '2021-01-25'
     image: caregiver-1622810066.jpg
     pdf: pdf/faros-job-advertisment-for-caregiver-feb-2021.pdf
-updated_by: 5eb7e72e-e580-4a8d-81c6-51acd7db6565
-updated_at: 1622816486
+updated_by: 9922d37b-f014-49d3-aa09-1d2d4596446f
+updated_at: 1633002657
 ---

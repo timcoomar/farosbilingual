@@ -1,7 +1,7 @@
 ---
 id: 96889f4f-1a57-4c57-bc96-a6fd2af35cc7
 origin: 3b365da3-39c8-497d-82c8-dcfcb8f0ca54
-title: 'Συνεργάτες & προγράμματα'
+title: Συνεργάτες
 project_1_title: Συνεργάτες
 project_1_summary: 'Βασιζόμαστε στους συνεργάτες μας, οι οποίοι στέκονται πάντα δίπλα μας. Είναι εξέχοντα μέλη της τοπικής κοινότητας της Αθήνας, κοινωφελή ιδρύματα και ανεξάρτητοι υποστηρικτές της αποστολής μας, που συμμετέχουν στις εκδηλώσεις μας αλλά και στην ανάπτυξη προγραμμάτων.'
 project_1_items:
@@ -14,16 +14,20 @@ project_1_items:
     project_1_text: 'EU''s Asylum, Migration, and Integration Fund (AMIF) for the period 2014-20 is supporting Faros'' Shelter.'
     project_1_url: null
   -
-    project_1_image: partners/logo-unhcr.png
-    project_1_text: 'United Nations'' Refugee Agency, UNHCR, supports Faros'' Horizon Center and its educational programs.'
-    project_1_url: null
-  -
     project_1_image: partners/logo-mit-dlab.jpg
     project_1_text: 'MIT D-Lab develops solutions to global poverty challenges. It''s Faros'' partner at Horizon Center''s educational programs.'
     project_1_url: null
   -
     project_1_image: partners/logo-king-baudouin-foundation.jpg
     project_1_text: 'The King Baudouin Foundation is an independent and pluralistic foundation that supports Faros'' Horizon and Drop-in Center.'
+    project_1_url: null
+  -
+    project_1_image: partners/logo-snf.jpg
+    project_1_text: 'SNF, one of the world''s leading international philanthropic organizations, supported our Drop-in Center.'
+    project_1_url: null
+  -
+    project_1_image: partners/logo-latsis.jpg
+    project_1_text: 'Latsis Foundation is a non-profit foundation that supported our shelter.'
     project_1_url: null
   -
     project_1_image: partners/logo-epim.jpg
@@ -36,6 +40,10 @@ project_1_items:
   -
     project_1_image: partners/logo-ias.jpg
     project_1_text: 'International Aid Services is a Denmark based relief and development organization that supports Faros'' programs'
+    project_1_url: null
+  -
+    project_1_image: partners/Fred-Foundation-logo-300dpi-9cm.png
+    project_1_text: null
     project_1_url: null
   -
     project_1_image: partners/logo-eccex.png
@@ -57,6 +65,27 @@ project_1_items:
     project_1_image: partners/logo-roskilde-baptist.jpg
     project_1_text: 'Roskilde Baptistkirke supports Faros'' programs'
     project_1_url: null
-updated_by: 5eb7e72e-e580-4a8d-81c6-51acd7db6565
-updated_at: 1622816418
+project_2_items:
+  -
+    project_2_image: partners/logo-unhcr.png
+    project_2_text: 'United Nations'' Refugee Agency, UNHCR, supports Faros'' Horizon Center and its educational programs.'
+    project_2_url: null
+  -
+    project_2_image: partners/logo-unicef.png
+    project_2_text: 'The United Nations Children''s Fund, a United Nations agency, supported Faros'' Family Center.'
+    project_2_url: null
+  -
+    project_2_image: partners/logo-save-the-children.jpg
+    project_2_text: 'Save The Children, an international NGO, supported our protection program at Elliniko Camp.'
+    project_2_url: null
+  -
+    project_2_image: partners/logo-irc.png
+    project_2_text: 'The International Rescue Committee, an international NGO, supported our Street Work program'
+    project_2_url: null
+  -
+    project_2_image: partners/logo-tearfund.jpg
+    project_2_text: 'Tearfund, an international Christian relief and development agency based in the UK, supported our Street Work program'
+    project_2_url: null
+updated_by: 9922d37b-f014-49d3-aa09-1d2d4596446f
+updated_at: 1634218458
 ---
