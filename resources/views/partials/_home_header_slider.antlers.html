@@ -1,16 +1,19 @@
 <figure class="home-header__images">
+  <a class="donate-button__home" href="{{ link to='give' }}">
+    Donate now
+  </a>
   <!-- Slider main container -->
   <div class="swiper-container vertical">
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
           <!-- Slides -->
           <div class="swiper-slide">
-            {{ asset url="/assets/img/00home/home-slider-2.jpg" }}
+            {{ asset url="/assets/home-slider-transforming.jpg" }}
               <img src="{{ url }}" alt="{{ alt }}">
             {{ /asset }}
             <div class="home-intro__text">
               <h1 class="home-intro__title">
-                  <a href="{{ link to="about" }}">Transforming Lives</a>
+                  <a href="{{ link to='about' }}">Transforming Lives</a>
               </h1>
               <span class="home-intro__subtitle">We combine protection services with informal education and mentoring that enable unaccompanied children to cultivate their talents.</span>
             </div>
@@ -21,7 +24,7 @@
             {{ /asset }}
             <div class="home-intro__text">
               <h1 class="home-intro__title">
-                  <a href="{{ link to="services" }}">Our Services for<br>Unaccompanied Children.</a>
+                  <a href="{{ link to='services' }}">Our Services for<br>Unaccompanied Children.</a>
               </h1>
               <span class="home-intro__subtitle">We protect every child’s fundamental right to a childhood and equip them with the skills to face the future</span>
             </div>

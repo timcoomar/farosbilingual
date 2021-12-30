@@ -401,15 +401,8 @@ textarea {
 /**
  * Fix placeholder font properties inheritance.
  */
-::-webkit-input-placeholder {
-  font: inherit;
-}
 
 :-ms-input-placeholder {
-  font: inherit;
-}
-
-::-ms-input-placeholder {
   font: inherit;
 }
 
@@ -544,8 +537,7 @@ body {
 }
 
 .site-logo img {
-  -webkit-filter: drop-shadow(0 0 3px rgba(10, 10, 10, 0.5));
-          filter: drop-shadow(0 0 3px rgba(10, 10, 10, 0.5));
+  filter: drop-shadow(0 0 3px rgba(10, 10, 10, 0.5));
 }
 
 .aspect-ratio {
@@ -660,22 +652,12 @@ body {
   resize: none;
 }
 
-::-webkit-input-placeholder {
-  opacity: 0.5;
-  font-style: italic;
-}
-
 ::-moz-placeholder {
   opacity: 0.5;
   font-style: italic;
 }
 
 :-ms-input-placeholder {
-  opacity: 0.5;
-  font-style: italic;
-}
-
-::-ms-input-placeholder {
   opacity: 0.5;
   font-style: italic;
 }
@@ -1289,7 +1271,6 @@ button.swiper-pagination-bullet {
   height: 100%;
   background: #000;
   opacity: 0.6;
-  -webkit-filter: blur(50px);
   filter: blur(50px);
   z-index: 0;
 }
@@ -1804,9 +1785,7 @@ figure.home-header__images > .swiper-container {
   justify-content: center;
   align-items: center;
   display: none;
-  transition: -webkit-filter 0.3s;
   transition: filter 0.3s;
-  transition: filter 0.3s, -webkit-filter 0.3s;
   border: none;
   position: fixed;
   left: 2rem;
@@ -1816,8 +1795,7 @@ figure.home-header__images > .swiper-container {
 
 .page-menu > .site-logo--sticky:hover {
   background: none;
-  -webkit-filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.3));
-          filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.3));
 }
 
 @media (max-width: 1040px) {
@@ -1925,13 +1903,6 @@ figure.home-header__images > .swiper-container {
   color: white;
 }
 
-.footer-newsletter .footer__input::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.5);
-  font-style: italic;
-  font-weight: 100;
-  font-size: 1.5rem;
-}
-
 .footer-newsletter .footer__input::-moz-placeholder {
   color: rgba(255, 255, 255, 0.5);
   font-style: italic;
@@ -1940,13 +1911,6 @@ figure.home-header__images > .swiper-container {
 }
 
 .footer-newsletter .footer__input:-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.5);
-  font-style: italic;
-  font-weight: 100;
-  font-size: 1.5rem;
-}
-
-.footer-newsletter .footer__input::-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.5);
   font-style: italic;
   font-weight: 100;
@@ -2013,8 +1977,7 @@ http://www.opensource.org/licenses/mit-license.php
 */
 /* Core CSS to make the lightbox work */
 .topbox_open .topbox_blur_wrapper {
-  -webkit-filter: blur(1px);
-          filter: blur(1px);
+  filter: blur(1px);
 }
 
 .topbox_overlay {
@@ -2267,8 +2230,7 @@ https://github.com/sampotts/plyr
 
 /* Our default lightbox skin (darkroom) */
 .topbox_open .topbox_blur_wrapper {
-  -webkit-filter: blur(1px);
-          filter: blur(1px);
+  filter: blur(1px);
 }
 
 .topbox_skin_darkroom .topbox_fill {
@@ -2487,19 +2449,16 @@ https://github.com/sampotts/plyr
 }
 
 .two-columns {
-  -webkit-columns: 2;
-     -moz-columns: 2;
-          columns: 2;
-  -webkit-column-gap: 1.5rem;
-     -moz-column-gap: 1.5rem;
-          column-gap: 1.5rem;
+  -moz-columns: 2;
+       columns: 2;
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
 }
 
 @media (max-width: 1080px) {
   .two-columns {
-    -webkit-columns: 1;
-       -moz-columns: 1;
-            columns: 1;
+    -moz-columns: 1;
+         columns: 1;
   }
 }
 .section-a__text > * {
@@ -2623,9 +2582,8 @@ a.section-morelink.reverse-color {
 
 @media (max-width: 650px) {
   [class^=section-] [class*=__text] {
-    -webkit-columns: 1;
-       -moz-columns: 1;
-            columns: 1;
+    -moz-columns: 1;
+         columns: 1;
   }
 }
 @media (max-width: 450px) {
@@ -2693,6 +2651,21 @@ article[class^=section-] > [class*=__image] {
   position: relative;
 }
 
+.donate-button__home {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  display: inline-block;
+  padding: 1rem 1.8rem;
+  background: var(--faros-darkblue);
+  color: white;
+  z-index: 2;
+  border-radius: 0.3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+
 .home-intro__text {
   /** title text on home slider at top **/
   position: absolute;
@@ -2711,8 +2684,12 @@ article[class^=section-] > [class*=__image] {
   }
 }
 .home-intro__title {
-  margin-bottom: 1.2rem;
+  margin-bottom: 0;
   line-height: 1;
+  display: inline-block;
+  padding: 1.5rem 2rem 0.2rem;
+  background: var(--faros-darkblue);
+  line-height: 1.2;
 }
 
 .home-intro__title a {
@@ -2725,9 +2702,13 @@ article[class^=section-] > [class*=__image] {
 
 .home-intro__subtitle {
   /** subtitle text on home slider at top **/
-  display: block;
+  display: inline-block;
+  background: var(--faros-darkblue);
+  padding: 1.2rem 2rem 1.5rem;
   font-size: 1.8rem;
   line-height: 1.4;
+  margin-top: -0.2rem;
+  max-width: 90%;
 }
 
 .home-header__images {
@@ -3252,9 +3233,8 @@ article[class^=section-] > [class*=__image] {
   }
 }
 .page-about [class^=section-] [class*=__text] {
-  -webkit-columns: 1;
-     -moz-columns: 1;
-          columns: 1;
+  -moz-columns: 1;
+       columns: 1;
 }
 
 .page-about .page-menu {
@@ -3329,9 +3309,8 @@ article[class^=section-] > [class*=__image] {
   }
 }
 .page-approach .section-a__text {
-  -webkit-columns: 1;
-     -moz-columns: 1;
-          columns: 1;
+  -moz-columns: 1;
+       columns: 1;
 }
 
 @media (min-width: 1000px) {
@@ -3498,9 +3477,8 @@ article[class^=section-] > [class*=__image] {
 }
 
 .singlenews__content {
-  -webkit-column-gap: 1.5em;
-     -moz-column-gap: 1.5em;
-          column-gap: 1.5em;
+  -moz-column-gap: 1.5em;
+       column-gap: 1.5em;
   font-size: 1.4rem;
   line-height: 1.8;
 }
@@ -3604,7 +3582,7 @@ article[class^=section-] > [class*=__image] {
   width: initial;
 }
 .section-a--give .give-areas {
-  grid-column: 2/7;
+  grid-column: 1/7;
   font-size: 1.5rem;
   padding: 1rem;
   display: grid;
@@ -3618,7 +3596,6 @@ article[class^=section-] > [class*=__image] {
   font-size: 2.3rem;
 }
 .section-a--give .give-areas__paypal {
-  border-right: 1px solid var(--faros-warmgray);
   padding-right: 2rem;
 }
 .section-a--give .give-areas__bank strong {

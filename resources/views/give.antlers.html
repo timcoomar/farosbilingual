@@ -32,19 +32,17 @@
       <section class="section-a--give">
         <header class="section-a__header"><span>{{ area_title }}</span></header>
         <h2 class="section-a__title">{{ section_title }}</h2>
-        <article class="section-a__text">
-            {{ section_content | markdown }}
-        </article>
         <aside class="give-areas">
           <div class="give-areas__paypal">
-            <h3>PayPal</h3>
-            <p>By clicking the button below, you will be transferred to Paypal's webpage</p>
-            {{ if paypal_button }} {{ paypal_button }} {{ /if }}
+            <p>We are deeply grateful to all who contribute to our work supporting refugee children. If you'd like to help us provide care to refugee children and youth in Greece by supporting us financially, you may give a one-time gift to Faros.</p>
+            <h4>Bank Transfer</h4>
+            <p>Bank Transfer<br>
+                Account holder: Faros<br>
+                IBAN: GR9601403530353002002004679<br>
+                BIC/Swift Code: CRBAGRAA</p>
           </div>
           <div class="give-areas__bank">
-            <h3>Bank Transfer</h3>
-            {{ bank_details | markdown }}
-            {{ theme:img src="logo-alphabank.svg" tag="true" }}
+            <script src="https://donorbox.org/widget.js" paypalExpress="true"></script><iframe src="https://donorbox.org/embed/faros-1" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%" style="max-width: 500px; min-width: 250px; max-height:none!important"></iframe>
           </div>
         </aside>
       </section>      
