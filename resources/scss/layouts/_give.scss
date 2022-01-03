@@ -46,12 +46,16 @@
     display: block;
 }
 
+.give-areas__bank iframe {
+    width: min-content;
+}
+
 @media (max-width: 650px) {
     .section-a--give {
         .section-a__text {
             grid-column: -1/1;
         }
-        .give-areas {
+        .give-areas > * {
             grid-column: -1/1;
         }
     }
