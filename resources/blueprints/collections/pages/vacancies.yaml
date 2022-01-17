@@ -45,7 +45,6 @@ sections:
         field:
           type: slug
           localizable: true
-          required: true
           validate:
             - required
             - 'unique_entry_value:{collection},{id},{site}'
@@ -109,6 +108,8 @@ sections:
                 type: assets
                 icon: assets
                 listable: hidden
+                instructions_position: above
+                show_filename: true
             -
               handle: pdf
               field:
@@ -129,6 +130,7 @@ sections:
           icon: grid
           localizable: true
           listable: hidden
+          instructions_position: above
   tenders:
     display: Tenders
     fields:
