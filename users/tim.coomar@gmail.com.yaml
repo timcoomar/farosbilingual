@@ -9,6 +9,3 @@ preferences:
         - shorttitle
         - tags
         - date
-  assets:
-    assets:
-      mode: grid
