@@ -30,6 +30,10 @@ annualreports:
       - pdf/faros-annual-report-2019.pdf
 financialreports:
   -
+    reporttitle: 'Οικονομική Έκθεση 2020'
+    reportfile:
+      - pdf/faros-finances-2020.pdf
+  -
     reporttitle: 'Οικονομική Έκθεση 2019'
     reportfile:
       - pdf/faros-finances-2019.pdf
@@ -52,6 +56,6 @@ statutes:
       - pdf/faros-organisation.pdf
 title5: Πολυμέσα
 short_title5: πολυμέσα
-updated_by: 9922d37b-f014-49d3-aa09-1d2d4596446f
-updated_at: 1623930781
+updated_by: c0031c84-ff26-433a-9890-6a5746f15dc6
+updated_at: 1644500695
 ---

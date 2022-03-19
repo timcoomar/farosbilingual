@@ -3,8 +3,8 @@ id: d627b21c-927a-49a5-b590-f372774675b8
 blueprint: about
 title: About
 header_image: header-about.jpg
-updated_by: 9922d37b-f014-49d3-aa09-1d2d4596446f
-updated_at: 1625215678
+updated_by: c0031c84-ff26-433a-9890-6a5746f15dc6
+updated_at: 1646056255
 template: about
 title1: 'Our Story'
 content1: |-
@@ -47,6 +47,10 @@ annualreports:
     reportfile:
       - pdf/faros-annual-report-2019.pdf
 financialreports:
+  -
+    reporttitle: 'Financial Report 2020'
+    reportfile:
+      - pdf/faros-annual-report-2020.pdf
   -
     reporttitle: 'Financial Report 2019'
     reportfile:

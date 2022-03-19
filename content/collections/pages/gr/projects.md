@@ -2,7 +2,7 @@
 id: 96889f4f-1a57-4c57-bc96-a6fd2af35cc7
 origin: 3b365da3-39c8-497d-82c8-dcfcb8f0ca54
 title: Συνεργάτες
-project_1_title: Συνεργάτες
+project_1_title: 'Τρέχοντες Συνεργάτες'
 project_1_summary: 'Βασιζόμαστε στους συνεργάτες μας, οι οποίοι στέκονται πάντα δίπλα μας. Είναι εξέχοντα μέλη της τοπικής κοινότητας της Αθήνας, κοινωφελή ιδρύματα και ανεξάρτητοι υποστηρικτές της αποστολής μας, που συμμετέχουν στις εκδηλώσεις μας αλλά και στην ανάπτυξη προγραμμάτων.'
 project_1_items:
   -
@@ -10,8 +10,8 @@ project_1_items:
     project_1_text: 'Velux Foundations is a philanthropic foundation, based in Denmark that supports the Horizon Center.'
     project_1_url: 'https://veluxfoundations.dk/en'
   -
-    project_1_image: partners/logo-hellenic-republic.jpg
-    project_1_text: 'EU''s Asylum, Migration, and Integration Fund (AMIF) for the period 2014-20 is supporting Faros'' Shelter.'
+    project_1_image: partners/logo-EMAS.PNG
+    project_1_text: 'ΤΑΜΕΙΟ ΑΣΥΛΟΥ, ΜΕΤΑΝΑΣΤΕΥΣΗΣ & ΕΝΤΑΞΗΣ 2014-2020   Με τη συγχρηματοδότηση της Ε.Ε.   HOME/2020/AMIF/AG/EMAS/0132   ΥΠΟΥΡΓΕΙΟ ΜΕΤΑΝΑΣΤΕΥΣΗΣ ΚΑΙ ΑΣΥΛΟΥ'
     project_1_url: null
   -
     project_1_image: partners/logo-mit-dlab.jpg
@@ -65,6 +65,7 @@ project_1_items:
     project_1_image: partners/logo-roskilde-baptist.jpg
     project_1_text: 'Roskilde Baptistkirke supports Faros'' programs'
     project_1_url: null
+project_2_title: 'Παλαιοί Συνεργάτες'
 project_2_items:
   -
     project_2_image: partners/logo-unhcr.png
@@ -86,6 +87,6 @@ project_2_items:
     project_2_image: partners/logo-tearfund.jpg
     project_2_text: 'Tearfund, an international Christian relief and development agency based in the UK, supported our Street Work program'
     project_2_url: null
-updated_by: 9922d37b-f014-49d3-aa09-1d2d4596446f
-updated_at: 1634218458
+updated_by: c0031c84-ff26-433a-9890-6a5746f15dc6
+updated_at: 1643369929
 ---

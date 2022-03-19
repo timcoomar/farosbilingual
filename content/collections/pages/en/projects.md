@@ -9,9 +9,9 @@ project_1_items:
     project_1_text: 'Velux Foundations is a philanthropic foundation, based in Denmark that supports the Horizon Center.'
     project_1_url: 'https://veluxfoundations.dk/en'
   -
-    project_1_image: partners/logo-hellenic-republic.jpg
-    project_1_text: 'EU''s Asylum, Migration, and Integration Fund (AMIF) for the period 2014-20 is supporting Faros'' Shelter.'
-    project_1_url: null
+    project_1_image: EMAS-Logo.PNG
+    project_1_text: 'Asylum, Migration & Integration Fund 2014-2020  Action co-funded by the EU  HOME/2020/AMIF/AG/EMAS/0132  MINISTRY OF MIGRATION AND ASYLUM'
+    project_1_url: 'entry::9b900ac4-d966-4cc2-ad9a-baec2e8dfaa6'
   -
     project_1_image: partners/logo-mit-dlab.jpg
     project_1_text: 'MIT D-Lab develops solutions to global poverty challenges. It''s Faros'' partner at Horizon Center''s educational programs.'
@@ -64,8 +64,8 @@ project_1_items:
     project_1_image: partners/logo-roskilde-baptist.jpg
     project_1_text: 'Roskilde Baptistkirke supports Faros'' programs'
     project_1_url: null
-updated_by: 9922d37b-f014-49d3-aa09-1d2d4596446f
-updated_at: 1634218480
+updated_by: c0031c84-ff26-433a-9890-6a5746f15dc6
+updated_at: 1643369625
 template: projects
 header_image: header-approach.jpg
 project_2_title: 'Past Donors'

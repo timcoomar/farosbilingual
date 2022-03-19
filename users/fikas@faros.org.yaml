@@ -1,0 +1,6 @@
+name: 'Harry Fikas'
+super: true
+roles:
+  - editor
+id: c0031c84-ff26-433a-9890-6a5746f15dc6
+password_hash: $2y$10$3sqaOtGVofytl3o/I2gjSeOU0jYsmBpS9UwvhLnEUDTm8LJTfnNIW
