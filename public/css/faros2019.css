@@ -401,6 +401,9 @@ textarea {
 /**
  * Fix placeholder font properties inheritance.
  */
+::-webkit-input-placeholder {
+  font: inherit;
+}
 
 :-ms-input-placeholder {
   font: inherit;
@@ -537,7 +540,8 @@ body {
 }
 
 .site-logo img {
-  filter: drop-shadow(0 0 3px rgba(10, 10, 10, 0.5));
+  -webkit-filter: drop-shadow(0 0 3px rgba(10, 10, 10, 0.5));
+          filter: drop-shadow(0 0 3px rgba(10, 10, 10, 0.5));
 }
 
 .aspect-ratio {
@@ -650,6 +654,11 @@ body {
 
 .form-contact textarea {
   resize: none;
+}
+
+::-webkit-input-placeholder {
+  opacity: 0.5;
+  font-style: italic;
 }
 
 ::-moz-placeholder {
@@ -800,11 +809,14 @@ body:not(.page-home) #burger {
   height: 100%;
   z-index: 1;
   display: flex;
+  transition-property: -webkit-transform;
   transition-property: transform;
+  transition-property: transform, -webkit-transform;
   box-sizing: content-box;
 }
 
 .swiper-container-android .swiper-slide, .swiper-wrapper {
+  -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 
@@ -822,7 +834,9 @@ body:not(.page-home) #burger {
   width: 100%;
   height: 100%;
   position: relative;
+  transition-property: -webkit-transform;
   transition-property: transform;
+  transition-property: transform, -webkit-transform;
 }
 
 .swiper-invisible-blank-slide {
@@ -835,14 +849,18 @@ body:not(.page-home) #burger {
 
 .swiper-container-autoheight .swiper-wrapper {
   align-items: flex-start;
+  transition-property: height, -webkit-transform;
   transition-property: transform, height;
+  transition-property: transform, height, -webkit-transform;
 }
 
 .swiper-container-3d {
+  -webkit-perspective: 1200px;
   perspective: 1200px;
 }
 
 .swiper-container-3d .swiper-cube-shadow, .swiper-container-3d .swiper-slide, .swiper-container-3d .swiper-slide-shadow-bottom, .swiper-container-3d .swiper-slide-shadow-left, .swiper-container-3d .swiper-slide-shadow-right, .swiper-container-3d .swiper-slide-shadow-top, .swiper-container-3d .swiper-wrapper {
+  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 
@@ -931,6 +949,7 @@ body:not(.page-home) #burger {
   position: absolute;
   text-align: center;
   transition: 0.3s opacity;
+  -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   z-index: 10;
 }
@@ -951,27 +970,33 @@ body:not(.page-home) #burger {
 }
 
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+  -webkit-transform: scale(0.33);
   transform: scale(0.33);
   position: relative;
 }
 
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active {
+  -webkit-transform: scale(1);
   transform: scale(1);
 }
 
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
+  -webkit-transform: scale(0.66);
   transform: scale(0.66);
 }
 
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
+  -webkit-transform: scale(0.33);
   transform: scale(0.33);
 }
 
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
+  -webkit-transform: scale(0.66);
   transform: scale(0.66);
 }
 
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
+  -webkit-transform: scale(0.33);
   transform: scale(0.33);
 }
 
@@ -1006,6 +1031,7 @@ button.swiper-pagination-bullet {
 .swiper-container-vertical > .swiper-pagination-bullets {
   right: 10px;
   top: 50%;
+  -webkit-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
 }
 
@@ -1016,13 +1042,16 @@ button.swiper-pagination-bullet {
 
 .swiper-container-vertical > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
   top: 50%;
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   width: 8px;
 }
 
 .swiper-container-vertical > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
   display: inline-block;
+  transition: 0.2s top, 0.2s -webkit-transform;
   transition: 0.2s transform, 0.2s top;
+  transition: 0.2s transform, 0.2s top, 0.2s -webkit-transform;
 }
 
 .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
@@ -1031,16 +1060,21 @@ button.swiper-pagination-bullet {
 
 .swiper-container-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
   left: 50%;
+  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   white-space: nowrap;
 }
 
 .swiper-container-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+  transition: 0.2s left, 0.2s -webkit-transform;
   transition: 0.2s transform, 0.2s left;
+  transition: 0.2s transform, 0.2s left, 0.2s -webkit-transform;
 }
 
 .swiper-container-horizontal.swiper-container-rtl > .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+  transition: 0.2s right, 0.2s -webkit-transform;
   transition: 0.2s transform, 0.2s right;
+  transition: 0.2s transform, 0.2s right, 0.2s -webkit-transform;
 }
 
 .swiper-pagination-progressbar {
@@ -1055,11 +1089,14 @@ button.swiper-pagination-bullet {
   top: 0;
   width: 100%;
   height: 100%;
+  -webkit-transform: scale(0);
   transform: scale(0);
+  -webkit-transform-origin: left top;
   transform-origin: left top;
 }
 
 .swiper-container-rtl .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  -webkit-transform-origin: right top;
   transform-origin: right top;
 }
 
@@ -1169,6 +1206,7 @@ button.swiper-pagination-bullet {
   margin-left: -21px;
   margin-top: -21px;
   z-index: 10;
+  -webkit-transform-origin: 50%;
   transform-origin: 50%;
   -webkit-animation: swiper-preloader-spin 1s steps(12, end) infinite;
   animation: swiper-preloader-spin 1s steps(12, end) infinite;
@@ -1191,11 +1229,13 @@ button.swiper-pagination-bullet {
 
 @-webkit-keyframes swiper-preloader-spin {
   100% {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
 @keyframes swiper-preloader-spin {
   100% {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
@@ -1235,6 +1275,7 @@ button.swiper-pagination-bullet {
   backface-visibility: hidden;
   z-index: 1;
   visibility: hidden;
+  -webkit-transform-origin: 0 0;
   transform-origin: 0 0;
   width: 100%;
   height: 100%;
@@ -1245,6 +1286,7 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-container-cube.swiper-container-rtl .swiper-slide {
+  -webkit-transform-origin: 100% 0;
   transform-origin: 100% 0;
 }
 
@@ -1271,6 +1313,7 @@ button.swiper-pagination-bullet {
   height: 100%;
   background: #000;
   opacity: 0.6;
+  -webkit-filter: blur(50px);
   filter: blur(50px);
   z-index: 0;
 }
@@ -1334,7 +1377,8 @@ button.swiper-pagination-bullet {
   top: auto;
   bottom: 4rem;
   right: 1rem;
-  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 .swiper-container.vertical .swiper-button-prev {
@@ -1342,13 +1386,15 @@ button.swiper-pagination-bullet {
   bottom: 6.5rem;
   right: 1rem;
   left: auto;
-  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 .swiper-container-vertical > .swiper-pagination-bullets {
   right: 2.2rem;
   top: auto;
   bottom: 10px !important;
+  -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 
@@ -1503,12 +1549,16 @@ button.swiper-pagination-bullet {
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translateX(200vw);
+  -webkit-transform: translateX(200vw);
+          transform: translateX(200vw);
+  transition: -webkit-transform 0.4s;
   transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
 }
 
 .site-menu--main.open {
-  transform: translateX(0);
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
 
 #site-menu__svg {
@@ -1553,8 +1603,11 @@ button.swiper-pagination-bullet {
     display: flex;
     flex-direction: column;
     position: fixed;
-    transform: translateX(100vw);
+    -webkit-transform: translateX(100vw);
+            transform: translateX(100vw);
+    transition: -webkit-transform 0.4s ease-in-out;
     transition: transform 0.4s ease-in-out;
+    transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
     top: 0;
     left: 0;
     width: 100vw;
@@ -1569,7 +1622,8 @@ button.swiper-pagination-bullet {
   }
 
   .site-menu--mobile.open {
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
     padding-top: 4rem;
     padding-right: 1.7rem;
   }
@@ -1765,7 +1819,8 @@ figure.home-header__images > .swiper-container {
 
   .page-menu > .site-logo--sticky {
     position: absolute;
-    transform: translateX(-200vw);
+    -webkit-transform: translateX(-200vw);
+            transform: translateX(-200vw);
   }
 }
 @media (max-width: 650px) {
@@ -1785,7 +1840,9 @@ figure.home-header__images > .swiper-container {
   justify-content: center;
   align-items: center;
   display: none;
+  transition: -webkit-filter 0.3s;
   transition: filter 0.3s;
+  transition: filter 0.3s, -webkit-filter 0.3s;
   border: none;
   position: fixed;
   left: 2rem;
@@ -1795,7 +1852,8 @@ figure.home-header__images > .swiper-container {
 
 .page-menu > .site-logo--sticky:hover {
   background: none;
-  filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.3));
+  -webkit-filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.3));
+          filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.3));
 }
 
 @media (max-width: 1040px) {
@@ -1903,6 +1961,13 @@ figure.home-header__images > .swiper-container {
   color: white;
 }
 
+.footer-newsletter .footer__input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-style: italic;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
 .footer-newsletter .footer__input::-moz-placeholder {
   color: rgba(255, 255, 255, 0.5);
   font-style: italic;
@@ -1977,7 +2042,8 @@ http://www.opensource.org/licenses/mit-license.php
 */
 /* Core CSS to make the lightbox work */
 .topbox_open .topbox_blur_wrapper {
-  filter: blur(1px);
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
 }
 
 .topbox_overlay {
@@ -2021,6 +2087,7 @@ http://www.opensource.org/licenses/mit-license.php
   left: 50%;
   width: 100%;
   height: 100%;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
   display: flex;
@@ -2097,6 +2164,7 @@ http://www.opensource.org/licenses/mit-license.php
   width: 100%;
   position: relative;
   top: 50%;
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   display: block;
 }
@@ -2203,34 +2271,41 @@ https://github.com/sampotts/plyr
 }
 
 .topbox_notouch .topbox_effect_slideLeft .topbox_content {
+  -webkit-transform: translateX(-20%);
   transform: translateX(-20%);
 }
 
 .topbox_notouch .topbox_effect_slideRight .topbox_content {
+  -webkit-transform: translateX(20%);
   transform: translateX(20%);
 }
 
 .topbox_notouch .topbox_effect_slideLeft.topbox_open .topbox_content,
 .topbox_notouch .topbox_effect_slideRight.topbox_open .topbox_content {
+  -webkit-transform: translateX(0);
   transform: translateX(0);
 }
 
 .topbox_notouch .topbox_effect_slideDown .topbox_content {
+  -webkit-transform: translateY(-20%);
   transform: translateY(-20%);
 }
 
 .topbox_notouch .topbox_effect_slideUp .topbox_content {
+  -webkit-transform: translateY(20%);
   transform: translateY(20%);
 }
 
 .topbox_notouch .topbox_effect_slideUp.topbox_open .topbox_content,
 .topbox_notouch .topbox_effect_slideDown.topbox_open .topbox_content {
+  -webkit-transform: translateY(0);
   transform: translateY(0);
 }
 
 /* Our default lightbox skin (darkroom) */
 .topbox_open .topbox_blur_wrapper {
-  filter: blur(1px);
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
 }
 
 .topbox_skin_darkroom .topbox_fill {
@@ -2257,6 +2332,7 @@ https://github.com/sampotts/plyr
 
 .topbox_skin_darkroom .topbox_nav {
   top: 50%;
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
@@ -2449,16 +2525,19 @@ https://github.com/sampotts/plyr
 }
 
 .two-columns {
-  -moz-columns: 2;
-       columns: 2;
-  -moz-column-gap: 1.5rem;
-       column-gap: 1.5rem;
+  -webkit-columns: 2;
+     -moz-columns: 2;
+          columns: 2;
+  -webkit-column-gap: 1.5rem;
+     -moz-column-gap: 1.5rem;
+          column-gap: 1.5rem;
 }
 
 @media (max-width: 1080px) {
   .two-columns {
-    -moz-columns: 1;
-         columns: 1;
+    -webkit-columns: 1;
+       -moz-columns: 1;
+            columns: 1;
   }
 }
 .section-a__text > * {
@@ -2545,7 +2624,8 @@ a.section-morelink.reverse-color {
   width: 100%;
   border-bottom: 1px solid var(--faros-warmgray);
   height: 0.5rem;
-  transform: translateX(-27vw);
+  -webkit-transform: translateX(-27vw);
+          transform: translateX(-27vw);
 }
 
 .section-b--l .section-b__header {
@@ -2553,7 +2633,8 @@ a.section-morelink.reverse-color {
 }
 
 .section-b--l .section-b__header::after {
-  transform: translateX(-1.3rem);
+  -webkit-transform: translateX(-1.3rem);
+          transform: translateX(-1.3rem);
   width: 48vw;
 }
 
@@ -2582,8 +2663,9 @@ a.section-morelink.reverse-color {
 
 @media (max-width: 650px) {
   [class^=section-] [class*=__text] {
-    -moz-columns: 1;
-         columns: 1;
+    -webkit-columns: 1;
+       -moz-columns: 1;
+            columns: 1;
   }
 }
 @media (max-width: 450px) {
@@ -2783,8 +2865,10 @@ article[class^=section-] > [class*=__image] {
   right: 4.5rem;
   width: 32rem;
   text-align: right;
-  transform: rotateZ(-90deg);
-  transform-origin: 100% 0;
+  -webkit-transform: rotateZ(-90deg);
+          transform: rotateZ(-90deg);
+  -webkit-transform-origin: 100% 0;
+          transform-origin: 100% 0;
   color: var(--faros-brown);
 }
 
@@ -2977,12 +3061,15 @@ article[class^=section-] > [class*=__image] {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: -webkit-transform 0.2s;
   transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
 [class*=social-icon]:hover {
   background: var(--faros-darkblue);
-  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
 }
 
 .home-section--main__d .content__image {
@@ -3007,8 +3094,10 @@ article[class^=section-] > [class*=__image] {
   right: 4.5rem;
   width: 25rem;
   text-align: right;
-  transform: rotateZ(-90deg);
-  transform-origin: 100% 0;
+  -webkit-transform: rotateZ(-90deg);
+          transform: rotateZ(-90deg);
+  -webkit-transform-origin: 100% 0;
+          transform-origin: 100% 0;
   color: var(--faros-brown);
 }
 
@@ -3252,8 +3341,9 @@ article[class^=section-] > [class*=__image] {
   }
 }
 .page-about [class^=section-] [class*=__text] {
-  -moz-columns: 1;
-       columns: 1;
+  -webkit-columns: 1;
+     -moz-columns: 1;
+          columns: 1;
 }
 
 .page-about .page-menu {
@@ -3328,8 +3418,9 @@ article[class^=section-] > [class*=__image] {
   }
 }
 .page-approach .section-a__text {
-  -moz-columns: 1;
-       columns: 1;
+  -webkit-columns: 1;
+     -moz-columns: 1;
+          columns: 1;
 }
 
 @media (min-width: 1000px) {
@@ -3491,8 +3582,9 @@ article[class^=section-] > [class*=__image] {
 }
 
 .singlenews__content {
-  -moz-column-gap: 1.5em;
-       column-gap: 1.5em;
+  -webkit-column-gap: 1.5em;
+     -moz-column-gap: 1.5em;
+          column-gap: 1.5em;
   font-size: 1.4rem;
   line-height: 1.8;
 }
@@ -3586,7 +3678,8 @@ article[class^=section-] > [class*=__image] {
   overflow: hidden;
 }
 .project-item:hover .project-item__text {
-  transform: translateY(0);
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
 .project-item__image {
@@ -3613,8 +3706,11 @@ article[class^=section-] > [class*=__image] {
   top: 0;
   left: 0;
   will-change: transform;
-  transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  transition: 0.4s -webkit-transform;
   transition: 0.4s transform;
+  transition: 0.4s transform, 0.4s -webkit-transform;
 }
 .project-item__text:hover {
   cursor: help;
@@ -3684,6 +3780,26 @@ article[class^=section-] > [class*=__image] {
     grid-column: -1/1;
   }
 }
+.lightkeeper-grid--main {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.lightkeeper-section__content {
+  grid-column: 1/-1;
+  font-size: 1.4rem;
+  padding: 1.5rem 1.8rem;
+}
+
+@media (max-width: 900px) {
+  .lightkeeper-grid--main {
+    display: block;
+  }
+
+  .lightkeeper-section__form {
+    padding-left: 3rem;
+  }
+}
 ul.list-vacancies {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -3714,12 +3830,14 @@ ul.list-vacancies li .vacancy-date {
 /** FADE IN EFFECT **/
 .fadeIn.hide {
   opacity: 0;
+  -webkit-transform: translate(0, 50px);
   transform: translate(0, 50px);
   transition: all 1s;
 }
 
 .fadeIn.visible {
   opacity: 1;
+  -webkit-transform: translate(0, 0);
   transform: translate(0, 0);
 }
 
