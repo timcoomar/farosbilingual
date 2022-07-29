@@ -13,10 +13,11 @@ bank_details: |-
 
   BIC/Swift Code: **CRBAGRAA**  
   <br>
+
   ---
   _For more information on becoming a Faros Lightkeeper please [click here](/lightkeeper)._
 paypal_button: '<script src="https://donorbox.org/widget.js" paypalExpress="true"></script><iframe src="https://donorbox.org/embed/faros-1" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%" style="max-width: 500px; min-width: 250px; max-height:none!important"></iframe>'
 updated_by: 5eb7e72e-e580-4a8d-81c6-51acd7db6565
-updated_at: 1659099942
+updated_at: 1659099964
 template: give
 ---
