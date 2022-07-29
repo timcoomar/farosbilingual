@@ -4,7 +4,7 @@ blueprint: about
 title: About
 header_image: header-about.jpg
 updated_by: c0031c84-ff26-433a-9890-6a5746f15dc6
-updated_at: 1646056255
+updated_at: 1647942775
 template: about
 title1: 'Our Story'
 content1: |-
@@ -50,7 +50,7 @@ financialreports:
   -
     reporttitle: 'Financial Report 2020'
     reportfile:
-      - pdf/faros-annual-report-2020.pdf
+      - pdf/faros-finances-2020.pdf
   -
     reporttitle: 'Financial Report 2019'
     reportfile:

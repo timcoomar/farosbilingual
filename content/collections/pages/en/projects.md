@@ -21,6 +21,10 @@ project_1_items:
     project_1_text: 'The King Baudouin Foundation is an independent and pluralistic foundation that supports Faros'' Horizon and Drop-in Center.'
     project_1_url: null
   -
+    project_1_image: partners/logo-otto-per-mille-1656063477.jpg
+    project_1_text: 'Otto per mille'
+    project_1_url: null
+  -
     project_1_image: partners/logo-snf.jpg
     project_1_text: 'SNF, one of the world''s leading international philanthropic organizations, supported our Drop-in Center.'
     project_1_url: null
@@ -29,12 +33,12 @@ project_1_items:
     project_1_text: 'Latsis Foundation is a non-profit foundation that supported our shelter.'
     project_1_url: null
   -
-    project_1_image: partners/logo-epim.jpg
-    project_1_text: 'The European Programme for Integration and Migration is an initiative of 25 private foundations that supports Faros'' Horizon and Drop-in Center.'
-    project_1_url: null
-  -
     project_1_image: partners/logo-us-embassy-athens.jpg
     project_1_text: 'U.S. Embassy in Athens supports Faros'' programs.'
+    project_1_url: null
+  -
+    project_1_image: partners/logo-epim.jpg
+    project_1_text: 'The European Programme for Integration and Migration is an initiative of 25 private foundations that supports Faros'' Horizon and Drop-in Center.'
     project_1_url: null
   -
     project_1_image: partners/logo-ias.jpg
@@ -65,7 +69,7 @@ project_1_items:
     project_1_text: 'Roskilde Baptistkirke supports Faros'' programs'
     project_1_url: null
 updated_by: c0031c84-ff26-433a-9890-6a5746f15dc6
-updated_at: 1643369625
+updated_at: 1656063545
 template: projects
 header_image: header-approach.jpg
 project_2_title: 'Past Donors'
