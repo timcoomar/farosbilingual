@@ -6,17 +6,22 @@ header_image: header-vacancies.jpg
 job: 'Girl''s Design Program Lead'
 date_posted: '2021-02-18'
 job_pdf: pdf/girls-design-program-lead-(2021).pdf
-updated_by: c0031c84-ff26-433a-9890-6a5746f15dc6
-updated_at: 1657704494
+updated_by: 5eb7e72e-e580-4a8d-81c6-51acd7db6565
+updated_at: 1672910822
 template: vacancies
 vacancies:
   -
-    job: 'Youth Worker & Interpreter for Drop-in Center'
+    job: 'Filled - G̶e̶n̶e̶r̶a̶l̶ ̶W̶o̶r̶k̶e̶r̶ ̶-̶ ̶S̶h̶e̶l̶t̶e̶r̶'
+    dateposted: '2022-07-29'
+    image: Faros_General_Worker.jpg
+    pdf: pdf/FSH2907-General-worker.pdf
+  -
+    job: 'Filled - Y̶o̶u̶t̶h̶ ̶W̶o̶r̶k̶e̶r̶ ̶&̶ ̶I̶n̶t̶e̶r̶p̶r̶e̶t̶e̶r̶ ̶f̶o̶r̶ ̶D̶r̶o̶p̶-̶i̶n̶ ̶C̶e̶n̶t̶e̶r̶'
     dateposted: '2022-07-13'
     image: Youth-Worker-Interpreter-Drop-in-Center.jpg
     pdf: 'pdf/FDC-1307-Youth-Worker-&-Interpreter-for-Drop-in-Center.pdf'
   -
-    job: 'Social Worker for Faros Drop-in Center'
+    job: 'Filled - S̶o̶c̶i̶a̶l̶ ̶W̶o̶r̶k̶e̶r̶ ̶f̶o̶r̶ ̶F̶a̶r̶o̶s̶ ̶D̶r̶o̶p̶-̶i̶n̶ ̶C̶e̶n̶t̶e̶r̶'
     dateposted: '2022-07-12'
     image: Social-Worker-Drop-in-Center.jpg
     pdf: pdf/FDC-1207-Social-Worker-for-Faros-Drop-in-Center.pdf
