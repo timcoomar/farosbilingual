@@ -7,9 +7,14 @@ job: 'Girl''s Design Program Lead'
 date_posted: '2021-02-18'
 job_pdf: pdf/girls-design-program-lead-(2021).pdf
 updated_by: 5eb7e72e-e580-4a8d-81c6-51acd7db6565
-updated_at: 1672911895
+updated_at: 1672911970
 template: vacancies
 vacancies:
+  -
+    job: 'Filled - P̶s̶y̶c̶h̶o̶l̶o̶g̶i̶s̶t̶ ̶f̶o̶r̶ ̶U̶n̶a̶c̶c̶o̶m̶p̶a̶n̶i̶e̶d̶ ̶M̶i̶n̶o̶r̶s̶ ̶-̶ ̶S̶h̶e̶l̶t̶e̶r̶'
+    dateposted: '2022-09-05'
+    image: Faros_Psychologist.jpg
+    pdf: pdf/FSH0509-Psychologist-job-ad.pdf
   -
     job: 'Filled - I̶n̶t̶e̶g̶r̶a̶t̶i̶o̶n̶ ̶&̶ ̶E̶m̶p̶l̶o̶y̶a̶b̶i̶l̶i̶t̶y̶ ̶O̶f̶f̶i̶c̶e̶r̶ ̶-̶ ̶H̶o̶r̶i̶z̶o̶n̶ ̶C̶e̶n̶t̶e̶r̶'
     dateposted: '2022-08-12'
