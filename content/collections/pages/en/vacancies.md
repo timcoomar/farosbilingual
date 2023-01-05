@@ -7,9 +7,14 @@ job: 'Girl''s Design Program Lead'
 date_posted: '2021-02-18'
 job_pdf: pdf/girls-design-program-lead-(2021).pdf
 updated_by: 5eb7e72e-e580-4a8d-81c6-51acd7db6565
-updated_at: 1672910822
+updated_at: 1672911026
 template: vacancies
 vacancies:
+  -
+    job: 'Psychosocial Officer - Horizon Center'
+    dateposted: '2022-08-04'
+    image: Psychosocial-Officer.jpeg
+    pdf: pdf/JA_Psychosocial-Officer_202209.docx.pdf
   -
     job: 'Filled - G̶e̶n̶e̶r̶a̶l̶ ̶W̶o̶r̶k̶e̶r̶ ̶-̶ ̶S̶h̶e̶l̶t̶e̶r̶'
     dateposted: '2022-07-29'
