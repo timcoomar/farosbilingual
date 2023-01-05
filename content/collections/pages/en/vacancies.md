@@ -7,9 +7,14 @@ job: 'Girl''s Design Program Lead'
 date_posted: '2021-02-18'
 job_pdf: pdf/girls-design-program-lead-(2021).pdf
 updated_by: 5eb7e72e-e580-4a8d-81c6-51acd7db6565
-updated_at: 1672911970
+updated_at: 1672912119
 template: vacancies
 vacancies:
+  -
+    job: 'Filled - C̶a̶r̶e̶ ̶t̶a̶k̶e̶r̶ ̶f̶o̶r̶ ̶u̶n̶a̶c̶c̶o̶m̶p̶i̶n̶i̶e̶d̶ ̶m̶i̶n̶o̶r̶s̶-̶S̶h̶e̶l̶t̶e̶r̶'
+    dateposted: '2022-10-06'
+    image: caregiver-1622810066-1672912086.jpg
+    pdf: pdf/Care-taker-for-unaccompinied-minors-Shelter-1665059570.pdf
   -
     job: 'Filled - P̶s̶y̶c̶h̶o̶l̶o̶g̶i̶s̶t̶ ̶f̶o̶r̶ ̶U̶n̶a̶c̶c̶o̶m̶p̶a̶n̶i̶e̶d̶ ̶M̶i̶n̶o̶r̶s̶ ̶-̶ ̶S̶h̶e̶l̶t̶e̶r̶'
     dateposted: '2022-09-05'
