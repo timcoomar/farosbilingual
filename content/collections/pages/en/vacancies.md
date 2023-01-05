@@ -7,9 +7,14 @@ job: 'Girl''s Design Program Lead'
 date_posted: '2021-02-18'
 job_pdf: pdf/girls-design-program-lead-(2021).pdf
 updated_by: 5eb7e72e-e580-4a8d-81c6-51acd7db6565
-updated_at: 1672911807
+updated_at: 1672911895
 template: vacancies
 vacancies:
+  -
+    job: 'Filled - I̶n̶t̶e̶g̶r̶a̶t̶i̶o̶n̶ ̶&̶ ̶E̶m̶p̶l̶o̶y̶a̶b̶i̶l̶i̶t̶y̶ ̶O̶f̶f̶i̶c̶e̶r̶ ̶-̶ ̶H̶o̶r̶i̶z̶o̶n̶ ̶C̶e̶n̶t̶e̶r̶'
+    dateposted: '2022-08-12'
+    image: 'Integration-&-Employability-Officer-Horizon-Center.jpeg'
+    pdf: 'pdf/JA_Integration-&-Employability-Officer_202209.docx.pdf'
   -
     job: 'Design Instructor - Horizon Center'
     dateposted: '2022-08-12'
