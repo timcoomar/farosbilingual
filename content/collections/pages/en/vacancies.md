@@ -7,9 +7,14 @@ job: 'Girl''s Design Program Lead'
 date_posted: '2021-02-18'
 job_pdf: pdf/girls-design-program-lead-(2021).pdf
 updated_by: 5eb7e72e-e580-4a8d-81c6-51acd7db6565
-updated_at: 1672912209
+updated_at: 1672912349
 template: vacancies
 vacancies:
+  -
+    job: 'Cleaner for the shelter'
+    dateposted: '2022-12-01'
+    image: clean1-1669890589.jpg
+    pdf: pdf/Kaoarisths_Kaoaristria-job-ad.pdf
   -
     job: 'English teacher for unaccompanied minors-Shelter'
     dateposted: '2022-10-06'
