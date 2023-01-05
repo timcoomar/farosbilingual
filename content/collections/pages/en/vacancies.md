@@ -7,9 +7,14 @@ job: 'Girl''s Design Program Lead'
 date_posted: '2021-02-18'
 job_pdf: pdf/girls-design-program-lead-(2021).pdf
 updated_by: 5eb7e72e-e580-4a8d-81c6-51acd7db6565
-updated_at: 1672912119
+updated_at: 1672912209
 template: vacancies
 vacancies:
+  -
+    job: 'English teacher for unaccompanied minors-Shelter'
+    dateposted: '2022-10-06'
+    image: english-g1a25c0b35_1920.jpg
+    pdf: pdf/English-teacher-for-unaccompinied-minors-Shelter.pdf
   -
     job: 'Filled - C̶a̶r̶e̶ ̶t̶a̶k̶e̶r̶ ̶f̶o̶r̶ ̶u̶n̶a̶c̶c̶o̶m̶p̶i̶n̶i̶e̶d̶ ̶m̶i̶n̶o̶r̶s̶-̶S̶h̶e̶l̶t̶e̶r̶'
     dateposted: '2022-10-06'
