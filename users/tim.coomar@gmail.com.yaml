@@ -11,5 +11,4 @@ preferences:
         - date
   assets:
     assets:
-      mode: grid
       per_page: 100
